@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "清廉校园主题素材审查",
+  "source_context": "http://edu.people.com.cn/n1/2026/0924/c1006-40804947.html",
+  "actors": [
+    "德育教师",
+    "素材管理员",
+    "审核专家"
+  ],
+  "states": [
+    "登记",
+    "分级审查",
+    "批准",
+    "投用",
+    "停用"
+  ],
+  "invariants": [
+    "学段规则",
+    "版权期限",
+    "内容冻结",
+    "紧急停用"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09302-004-A",
+      "actor": "德育教师",
+      "state": "登记"
+    },
+    {
+      "case_id": "09302-004-B",
+      "actor": "审核专家",
+      "state": "分级审查"
+    }
+  ],
+  "tags": [
+    "content-review",
+    "age-appropriate-policy"
+  ]
+}
